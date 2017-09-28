@@ -307,8 +307,6 @@ textarea {
   margin-top:50px;
 }
 
-
-
 #projetos p{
   text-align:center;
   color:#fff;
@@ -316,4 +314,14 @@ textarea {
   font-size:140%;
   font-weight:normal;
   font-family:brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.pform {
+    font-family: "Helvetica";
+    font-size: 1.6rem;
+    color: #988B70;
+}
+
+.h2form {
+    color: #988B70;
 }
