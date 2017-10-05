@@ -79,7 +79,7 @@
           <div class = "col-md-12">
             <article>
               <header>
-                <h2>O que posso fazer.</h2>
+                <h2>O que posso fazer</h2>
               </header>
               <div id = "design" class = "row">
                 <div class = "col-md-4 col-md-offset-1">
@@ -100,7 +100,7 @@
                   </div>
                 </div><!-- col -->
               </div> <!-- /row-->
-              <div id ="design" class = "row">
+              <div id ="design" class = "row empurra">
                 <div class ="col-md-4 col-md-push-7">
                   <div class = "home-dev-info">
                     <figure>
@@ -193,26 +193,27 @@
 
      <div class="container" id = "projetos" class = "row">
         <!-- Acionamentos -->
-        <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo"> Acionamentos </button>
+        <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo"> Eletrônica </button>
             <div id="demo" class="collapse">
               <!--    Accordion        -->
               <div class="container">
                   <div class="panel-group" id="accordion">
-                    <div class="panel panel-default background1">
+                    <div class="panel panel-default">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                       <div class="panel-heading">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Feed Me</a>
+                          Feed Me
                         </h4>
                       </div>
-                      <div id="collapse1" class="panel-collapse collapse in">
-                        <div>
+                      </a>
+                      <div id="collapse1" class="panel-collapse collapse in  background1">
+                        <div class = "row">
+                        <div class = "col-md-6">
                         <figure>
-                          <img src = "imagens/feedme.jpg" widht = "600px" height="600px" >
+                          <img src = "imagens/feedme.jpg" widht = "400px" height="400px" >
                         </figure>
                       </div>
-                        <div class = "row">
-                          <div class = "col-md-3"></div>
-                          <div class = "col-md-6">
+                          <div class = "col-md-4">
                               <p>Este projeto consistiu na criação de um brinquedo Bio inspirado que auxiliasse o
                                 desenvolvimento de algumas características fundamentais no crescimento das crianças, como:
                                 a função motora e a função cognitiva, por exemplo. Passamos pelo processo de design
@@ -220,49 +221,56 @@
                                 anos.
                             </p>
                             </div>
-                          <div class = "col-md-3"></div>
+                          <div class = "col-md-2"></div>
                       </div><!-- row -->
                       </div>
                     </div>
                     <div class="panel panel-default">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                       <div class="panel-heading">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Estação Meteorológica</a>
+                          Estação Meteorológica
                         </h4>
                       </div>
+                      </a>
                       <div id="collapse2" class="panel-collapse collapse background2">
-                        <figure>
-                          <img src = "imagens/estacao.jpeg" width = "600px" height = "600px">
-                        </figure>
                         <div class ="row">
-                          <div class = "col-md-3"></div>
                           <div class = "col-md-6">
-                        <div><p>Consistiu em um projeto que visava unir diversas habilidades como, a utilização de Arduino
+                        <figure>
+                          <img src = "imagens/estacao.jpeg" width = "300px" height = "400px">
+                        </figure>
+                      </div>
+                        <div class = "col-md-4"><p>Consistiu em um projeto que visava unir diversas habilidades como, a utilização de Arduino
                                 para interpretar sinais de sensores de umidade, temperatura e pressão, a criação de circuitos
                                 elétricos, a finalização visando um produto para uma futura comercialização, o que envolveu a
                                 conversão dos circuitos em uma placa impressa e a idealização de uma caixinha para começar
                                 a formar o produto.</p></div>
-                      </div>
+                      <div class = "cold-md-2"></div>
                     </div><!--row-->
                   </div><!--id-->
                   </div>
                     <div class="panel panel-default">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2-2">
                       <div class="panel-heading">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2-2">BeetleFox</a>
+                          BeetleFox
                         </h4>
                       </div>
+                    </a>
                       <div id="collapse2-2" class="panel-collapse collapse background2-2">
-                        <figure>
-                          <img src = "imagens/robo.jpeg" width = "800px" height = "600px">
-                        </figure>
                         <div class ="row">
-                          <div class = "col-md-3"></div>
                           <div class = "col-md-6">
-                        <div><p>Este projeto consistiu na criação de um robô de batalha para competir na Winter Challange
+
+
+                        <figure>
+                          <img src = "imagens/robo.jpeg" width = "400px" height = "400px">
+                        </figure>
+                      </div>
+                        <div class = "col-md-4"><p>Este projeto consistiu na criação de um robô de batalha para competir na Winter Challange
                                 2017, sediada anualmente pela faculdade Mauá. Inspirado nos famosos horizontal spinners,
                                 foi desenvolvido por mim e 3 outros alunos do primeiro semestre de Engenharia.</p></div>
-                      </div>
+                      <div class = "col-md-2"></div>
+
                     </div><!--row-->
                   </div><!--id-->
                   </div>
@@ -280,43 +288,47 @@
           <div class="container">
               <div class="panel-group" id="accordion2">
                 <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion2" href="#collapse4">Dinâmica Populacional</a>
+                      Dinâmica Populacional
                     </h4>
                   </div>
+                  </a>
                   <div id="collapse4" class="panel-collapse collapse in background4">
-                    <figure>
-                      <img src = "imagens/dinamica.png" width="600px" height="600px">
-                    </figure>
                     <div class ="row">
-                      <div class = "col-md-3"></div>
                       <div class = "col-md-6">
-                    <div><p>Nesse projeto, modelei as populações de tubarões, raias e vieiras com dados de 1970 até 2010.
-                    O intuito foi verificar as consequências que a pesca predátoria de vieiras teve na região da costa oeste dos Estados Unidos.</p></div>
+
+                    <figure>
+                      <img src = "imagens/dinamica.png" width="400px" height="400px">
+                    </figure>
                   </div>
-                  <div class = "col-md-3"></div>
+                    <div class = "col-md-4"><p>Nesse projeto, modelei as populações de tubarões, raias e vieiras com dados de 1970 até 2010.
+                    O intuito foi verificar as consequências que a pesca predátoria de vieiras teve na região da costa oeste dos Estados Unidos.</p></div>
+                    <div class = "col-md-2"></div>
+                  </div><!--row-->
                 </div>
               </div>
                 <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion2" href="#collapse5">Modelagem Termodinâmica</a>
+                      Modelagem Termodinâmica
                     </h4>
                   </div>
+                  </a>
                   <div id="collapse5" class="panel-collapse collapse background5">
-                    <figure>
-                      <img src = "imagens/iglu.jpeg" width = "600px" height = "600px">
-                    </figure>
                     <div class ="row">
-                      <div class = "col-md-3"></div>
                       <div class = "col-md-6">
-                    <div><p>Decidi estudar o funcionamento de um projeto da NASA, que consistia na criação de uma
+                    <figure>
+                      <img src = "imagens/iglu.jpeg" width = "400px" height = "400px">
+                    </figure>
+                  </div>
+                    <div class = "col-md-4"><p>Decidi estudar o funcionamento de um projeto da NASA, que consistia na criação de uma
                             moradia idealizada para ser levada e montada facilmente no território hostil de Marte, mais
                             especificamente aprofundei meu estudo no funcionamento do isolamento térmico, feito
                             através de duas camadas, sendo elas: uma de água e a outra de Co2 que é obtido da atmosfera de Marte.</p></div>
-                  </div>
-                  <div class = "col-md-3"></div>
+                  <div class = "col-md-2"></div>
                 </div><!--row-->
                   </div>
                 </div>
@@ -335,43 +347,48 @@
           <div class="container">
               <div class="panel-group" id="accordion3">
                 <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#collapse7">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion3" href="#collapse7">Artigo Científico</a>
+                      Artigo Científico
                     </h4>
                   </div>
+                  </a>
                   <div id="collapse7" class="panel-collapse collapse in background7">
-                    <figure>
-                      <img src = "imagens/artigo.jpg" widht = "600px" height="600px" >
-                    </figure>
                     <div class = "row">
-                      <div class = "col-md-3"></div>
                       <div class ="col-md-6">
-                    <div><p>Visei estudar a futura implementação de carros autônomos e elétrico no mercado
+
+                    <figure>
+                      <img src = "imagens/artigo.jpg" widht = "400px" height="400px" >
+                    </figure>
+                  </div>
+                    <div class = "col-md-4"><p>Visei estudar a futura implementação de carros autônomos e elétrico no mercado
                             brasileiro, buscando entender o quão distante estamos desta tecnologia, como as diversas
                             mudanças que a acompanharão afetariam o mercado e se seriam possíveis de serem
                             implementadas, fazendo uma breve comparação com a atual situação dos carros híbridos no
                             Brasil.</p></div>
-                      </div>
                       <div class = "col-md-3"></div>
-                  </div>
+                  </div><!--row-->
                 </div>
                 <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion3" href="#collapse8">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion3" href="#collapse8">Estudo da PNAD</a>
+                      Estudo da PNAD
                     </h4>
                   </div>
+                  </a>
                   <div id="collapse8" class="panel-collapse collapse background8">
-                    <figure>
-                      <img src = "imagens/pnad.png" width = "800px" height = "600px">
-                    </figure>
                     <div class ="row">
-                      <div class = "col-md-3"></div>
-                      <div class = "col-md-6">
-                    <div><p>Nesse projeto, a partir de informações de pesquisas nacionais por amostra de domicílios(PNAD), realizados pelo IBGE, estudei o crescimento relativo do acesso a Internet entre as diferentes classes sociais.</p></div>
+
+                    <div class = "col-md-6">
+
+                    <figure>
+                      <img src = "imagens/pnad.png" width = "400px" height = "300px">
+                    </figure>
                   </div>
-                  <div class = "col-md-3"></div>
+                    <div class = "col-md-4"><p>Nesse projeto, a partir de informações de pesquisas nacionais por amostra de domicílios(PNAD), realizados pelo IBGE, estudei o crescimento relativo do acesso a Internet entre as diferentes classes sociais.</p></div>
+                  <div class = "col-md-2"></div>
                 </div><!--row-->
                   </div>
                 </div>
@@ -389,39 +406,47 @@
           <!--    Accordion        -->
           <div class="container">
               <div class="panel-group" id="accordion4">
-                <div class="panel panel-default background9">
+                <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion4" href="#collapse9">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion4" href="#collapse9">Head Soccer</a>
+                      Head Soccer
                     </h4>
                   </div>
-                  <div id="collapse9" class="panel-collapse collapse in">
-                    <figure>
-                      <img src = 'imagens/headsoccer.png' width = "917px" height="600px">
-                    </figure>
+                  </a>
+                  <div id="collapse9" class="panel-collapse collapse in  background9">
                     <div class = "row">
-                      <div class = "col-md-3"></div>
                       <div class = "col-md-6">
-                    <p>Esse é um dos principais exemplos do estilo de jogos com que trabalho.
-                    É um jogo 2D de futebol, e este é o resultado final. </p></div> <!-- col-6 -->
+
+                    <figure>
+                      <img src = 'imagens/headsoccer.png' width = "408px" height="300px">
+                    </figure>
+                  </div>
+                    <div class ="col-md-4"><p>Esse é um dos principais exemplos do estilo de jogos com que trabalho.
+                    É um jogo 2D de futebol, e este é o resultado final. </p></div> <!-- col-4 -->
                     <div class = "col-md-3"></div>
                   </div><!-- row -->
                 </div>
               </div><!--panel-default -->
                 <div class="panel panel-default">
+                  <a data-toggle="collapse" data-parent="#accordion4" href="#collapse10">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion4" href="#collapse10">Pokemón</a>
+                    Pokemón
                     </h4>
                   </div>
+                  </a>
                   <div id="collapse10" class="panel-collapse collapse background10">
-                    <img src = "imagens/inspermon.png" width = "600px" height="600px">
                     <div class = "row">
-                      <div class = "col-md-3"></div>
+
                       <div class = "col-md-6">
+
+                    <img src = "imagens/inspermon.png" width = "400px" height="400px">
+                  </div>
+                    <div class = "col-md-4">
                     <p>Esse é um dos meus primeiros projetos.
                     Ele funciona a partir da mesma lógica do jogo pokemón, porém é em texto.</p></div> <!-- col-6 -->
-                    <div class = "col-md-3"></div>
+                    <div class = "col-md-2"></div>
                   </div> <!--row-->
                   </div>
                 </div>
@@ -439,21 +464,23 @@
           <!--    Accordion        -->
           <div class="container">
               <div class="panel-group" id="accordion5">
-                <div class="panel panel-default background1">
+                <div class="panel panel-default">
+                  <a data-toggle="collapse11" data-parent="#accordion5" href="#collapse11">
                   <div class="panel-heading">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse11" data-parent="#accordion5" href="#collapse11">Feed Me</a>
+                      Feed Me
                     </h4>
                   </div>
-                  <div id="collapse11" class="panel-collapse collapse in">
-                    <div class = "background1">
+                  </a>
+                  <div id="collapse11" class="panel-collapse collapse in background11">
+                    <div class = "row">
+
+                    <div class = "col-md-6">
                     <figure>
-                      <img src = "imagens/feedme.jpg" widht = "600px" height="600px" >
+                      <img src = "imagens/feedme.jpg" widht = "400px" height="400px" >
                     </figure>
                   </div>
-                    <div class = "row">
-                      <div class = "col-md-3"></div>
-                      <div class = "col-md-6">
+                      <div class = "col-md-4">
                           <p>Este projeto consistiu na criação de um brinquedo Bio inspirado que auxiliasse o
                             desenvolvimento de algumas características fundamentais no crescimento das crianças, como:
                             a função motora e a função cognitiva, por exemplo. Passamos pelo processo de design
@@ -461,7 +488,7 @@
                             anos.
                         </p>
                         </div>
-                      <div class = "col-md-3"></div>
+                      <div class = "col-md-2"></div>
                   </div><!-- row -->
                   </div>
                 </div>
